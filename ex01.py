@@ -1,6 +1,6 @@
 def calculaAbs(x):
-    "essa função verfica o numero inteiro ou float, e retorna seu valor absoluto!"
-
+    '''essa função verfica o numero inteiro ou float, e retorna seu valor absoluto!'''
+    '''float -> float'''
     if(x<0):
         return  x*(-1)
     else:
