@@ -1,3 +1,4 @@
+import math
 def classificacao(cv,ce,cs,fv,fe,fs):
     c = (cv*3)+ce
     f = (fv*3)+fe
@@ -17,6 +18,12 @@ def classificacao(cv,ce,cs,fv,fe,fs):
         return 'Flaminthians'
 
 
-print(classificacao(9,5,6,18,5,0))
 
+
+
+def avioes(c, p_compr, p_compet):
+    if((p_compr//p_compet)>=c):
+        return 'Suficiente'
+    else:
+        return 'Insuficiente'
 
