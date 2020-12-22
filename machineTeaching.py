@@ -27,3 +27,11 @@ def avioes(c, p_compr, p_compet):
     else:
         return 'Insuficiente'
 
+def PosNegZero(x):
+
+    if(x<0):
+        return str(x) + str(' e negativo')
+    elif(x==0):
+        return str(x) + str(' e zero')
+    elif(x>0):
+        return str(x) + str(' e positivo')
